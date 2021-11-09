@@ -2,8 +2,8 @@
 
 This repository contains code for Dev.to clone in reactjs.
 
-View Demo:
-https://devcommunity-clone.netify.app/
+<!-- View Demo:
+https://devcommunity-clone.netify.app/ -->
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
