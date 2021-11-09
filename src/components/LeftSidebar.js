@@ -24,22 +24,24 @@ import { GrFormClose } from "react-icons/gr";
 
 const tags = [
      "react",
+     "laravel",
      "graphql",
      "nodejs",
      "sass",
      "javascript",
      "html",
+     "tailwind",
+     "sass",
      "css",
      "webdev",
      "opensource",
      "beginners",
-     "python",
+     "Php",
      "git",
      "vscode",
      "npm",
      "sql",
-     "ubuntu",
-     "aws",
+     "materialui",
 ];
 
 const LeftSidebar = (props) => {

@@ -8,7 +8,7 @@ const Content = () => {
      useEffect(() => {
           const fetchAgain = () => {
                if (articles != null) {
-                    fetch("https://dev.to/api/articles")
+                    fetch("https://dev.to/api/articles/latest")
                          .then((res) => res.json())
                          .then((result) =>
                               setArticles([...articles, ...result])
@@ -46,11 +46,11 @@ const Content = () => {
 
      useEffect(() => {
           setTimeout(async () => {
-               const res = await fetch("https://dev.to/api/articles");
+               const res = await fetch("https://dev.to/api/articles/latest");
                const data = await res.json();
 
                setArticles(data);
-               console.log(data);
+               // console.log(data);
           }, 2000);
      }, []);
 
