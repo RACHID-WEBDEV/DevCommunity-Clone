@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import {
      Home,
@@ -43,10 +43,10 @@ const tags = [
 ];
 
 const LeftSidebar = (props) => {
-     const [more, setmore] = useState(false);
-     const toggle = () => {
-          setmore(!more);
-     };
+     //  const [more, setmore] = useState(false);
+     //  const toggle = () => {
+     //       setmore(!more);
+     //  };
      return (
           <>
                <aside className="leftBar">
@@ -187,13 +187,14 @@ const LeftSidebar = (props) => {
                          </ul>
                     </nav>
 
-                    <div
+                    {/* <div
                          className={
                               more
                                    ? "leftBar__social"
                                    : "leftBar__social hidden"
                          }
-                    >
+                    > */}
+                    <div className={"leftBar__social"}>
                          <a href="/twitter">
                               <i>
                                    <IoLogoTwitter />

@@ -57,25 +57,11 @@ const Content = () => {
      return (
           <main className="main-content">
                <header>
-                    <a href="/#" style={{ color: "000" }}>
+                    <a href="/#" style={{ color: "black" }}>
                          <b>Feed</b>
                     </a>
                     <a href="/#">Latest</a>
                     <a href="/#">Top</a>
-                    {/* <nav>
-                         <a href="/#">Latest</a>
-                         <a href="/#">Top</a>
-                    </nav> */}
-                    {/* <select id="dropdown-select" className="dropdown">
-                         <option value="Feed" defaultValue>
-                              Feed
-                         </option>
-
-                         <option value="Week">Week</option>
-                         <option value="Month">Month</option>
-                         <option value="Year">Feed</option>
-                         <option value="Infinity">Infinity</option>
-                    </select> */}
                </header>
                <div className="articles">
                     {articles &&
