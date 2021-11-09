@@ -1,6 +1,6 @@
 # Dev.to clone website with React JS and Scss
 
-This repository contains code for Dev.to clone in reactjs.
+This repository contains code for Dev.to Developers Community clone in reactjs.
 
 <!-- View Demo:
 https://devcommunity-clone.netify.app/ -->
